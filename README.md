@@ -22,7 +22,7 @@ O objetivo do jogo é coletar o máximo de cebolas possiveis que estão caindo n
 `pip install pygame`
 
 #### Passo 2
-`python maria.py`
+`python cebolaCollector.py`
 
 ## Como jogar
 

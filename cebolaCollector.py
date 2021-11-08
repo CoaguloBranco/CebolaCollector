@@ -123,13 +123,10 @@ while True:
         for _ in range(int(pontos / 10)):
             grupo_comida.add(Cebola())
 
-
-
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
                 pygame.quit()
                 exit()
-
 
     if groupcollide(grupo_comida, grupo_cesta, True, False):
         pontos += 1
